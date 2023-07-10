@@ -98,3 +98,10 @@ p {
 #contact {
   margin-top: 30px;
 }
+/*@media (max-width: 576px) {
+    h1 {
+        font-size: 48px;}
+    .img-fluid rounded {
+            display: none;
+        }
+    }
