@@ -1,0 +1,100 @@
+body {
+  margin: 0px auto;
+  max-width: 100%;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #151226;
+}
+:root {
+  --box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.2);
+  --primary-color: #024873;
+  --secondary-color: #151226;
+  --accent-color: #bf2c7d;
+}
+h2 {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0px;
+}
+h1 {
+  font-size: 96px;
+  color: var(--primary-color);
+  margin: 0px;
+}
+h3 {
+  font-size: 24px;
+  color: #151226;
+  margin: 0px;
+}
+.links {
+  display: flex;
+  margin-top: 40px;
+  justify-content: center;
+}
+.email-link:hover {
+  color: var(--accent-color);
+  text-decoration: underline;
+}
+.email-link {
+  display: flex;
+
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 28px;
+  text-decoration: none;
+}
+p {
+  display: block;
+
+  margin: 0 10px;
+
+  padding: 20px;
+  border-radius: 4px;
+  font-size: 18px;
+  line-height: 1.5;
+}
+.about_text {
+  margin: 30px 0 0 0;
+  text-align: center;
+}
+.home {
+  text-align: left;
+}
+.links a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 20px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+.accent-link {
+  background: var(--accent-color);
+  box-shadow: var(--box-shadow);
+  color: white;
+}
+.about-link {
+  color: var(--accent-color);
+  border: 1px solid var(--accent-color);
+}
+.homepage_link {
+  color: var(--accent-color);
+}
+.navbar-brand {
+  padding-left: 50px;
+}
+.row {
+  margin-top: 40px;
+}
+.navbar {
+  margin-bottom: 40px;
+}
+.mt-5 a {
+  margin: 20px;
+  border-radius: 4px;
+  padding: 25px 15px;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+#contact {
+  margin-top: 30px;
+}
